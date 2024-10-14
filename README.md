@@ -42,3 +42,17 @@ This project implements a simple HTTP server in C++ that serves an HTML file to 
                 If the file is found, it sends a 200 OK response along with the file's content.
                 If the file is not found, it sends a 404 Not Found response.
 Thread Management: Each client thread is detached to allow independent operation without waiting for it to finish.
+ # Fifth Project: Mystical Forest Adventure Game
+   ## Overview:
+               A text-based interactive adventure game written in C++. Players navigate through a mystical forest, make decisions, encounter characters like dragons, and explore different paths based on their choices. The game uses simple conditional logic, loops, and user input to guide the player through branching narratives.
+
+  ## Features:
+              Branching Storyline: Players can choose different paths, such as venturing through a forest or encountering a dragon.
+              Character Interaction: Options to fight or negotiate with a dragon, leading to different outcomes.
+              Treasure Hunt: Explore a treasure cave if you successfully befriend the dragon.
+              Replayability: Different choices lead to new experiences each time.
+              User Input Validation: Ensures valid player choices and responses.
+ ## Technologies:
+ ### Language: C++
+ ### Concepts: 
+              Conditional statements, loops, user input handling
