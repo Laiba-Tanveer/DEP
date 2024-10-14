@@ -42,17 +42,20 @@ This project implements a simple HTTP server in C++ that serves an HTML file to 
                 If the file is found, it sends a 200 OK response along with the file's content.
                 If the file is not found, it sends a 404 Not Found response.
 Thread Management: Each client thread is detached to allow independent operation without waiting for it to finish.
- # Fifth Project: Mystical Forest Adventure Game
-   ## Overview:
-               A text-based interactive adventure game written in C++. Players navigate through a mystical forest, make decisions, encounter characters like dragons, and explore different paths based on their choices. The game uses simple conditional logic, loops, and user input to guide the player through branching narratives.
+ # Fifth Project: Haunted Mansion Mystery Game
+  ## Overview:
+              A text-based interactive adventure game written in C++. Players explore a haunted mansion filled with secrets, ghosts, and hidden treasures. They navigate different rooms like the attic, basement, kitchen, and library, making decisions that impact the storyline. The game uses conditional logic, loops, and player input to drive the interactive experience, with various outcomes based on choices.
 
   ## Features:
-              Branching Storyline: Players can choose different paths, such as venturing through a forest or encountering a dragon.
-              Character Interaction: Options to fight or negotiate with a dragon, leading to different outcomes.
-              Treasure Hunt: Explore a treasure cave if you successfully befriend the dragon.
-              Replayability: Different choices lead to new experiences each time.
-              User Input Validation: Ensures valid player choices and responses.
- ## Technologies:
- ### Language: C++
- ### Concepts: 
-              Conditional statements, loops, user input handling
+              Branching Storyline: Players can explore different parts of the haunted mansion, each offering unique events and challenges.
+              Character Interaction: Encounter ghosts and decide to fight, flee, or negotiate with them, which alters the game's outcome.
+              Hidden Secrets: Discover hidden rooms, treasure chests, and secret levers that unlock new areas of the mansion.
+              Multiple Endings: Players can escape the mansion in different ways, depending on their choices.
+              Replayability: Different decisions provide new paths and experiences with every playthrough.
+              User Input Validation: Ensures valid player responses for a smooth and engaging game experience.
+## Technologies:
+## Language: C++
+ ## Concepts:
+            Conditional statements: Guide players based on their choices.
+            Loops: Handle multiple attempts and branching interactions.
+            User input handling: Validate player decisions and actions throughout the game.
